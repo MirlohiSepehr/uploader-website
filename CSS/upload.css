@@ -1,0 +1,33 @@
+.upload-notice{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.upload-notice p{
+    color: rgb(214, 63, 63);
+}
+.upload-inputs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+.upload-inputs input[type=file]{
+    display: none;
+}
+.upload-inputs label, input[type=submit]{
+    display: block;
+    background:  #055DA5;
+    padding: 30px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.upload-error{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}

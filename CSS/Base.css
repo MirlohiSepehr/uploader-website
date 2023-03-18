@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    height: 10%;
+    background: #055DA5;
+    box-shadow: 0 0 2rem #055DA5;
+}
+body{
+    background: #1B1B1B;
+}
+.header-title{
+    display: inline-block;
+    max-width: 300px;
+    text-shadow: 0 0 1rem white;
+    margin-left: 30px;
+}
+.Button-sec-header{
+    position: relative;
+    height: 100%;
+    float: right;
+    top: 10px;
+    right: 8px;
+}
+.Button-sec-header a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 19px;
+}
+.Button-sec-header a:hover{
+    text-shadow: 0 0 1rem white;
+}
+.Home-page{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 18px;
+}
